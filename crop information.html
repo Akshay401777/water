@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Information</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background: url('irrig.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #333;
+        }
+        header {
+            background: rgba(51, 51, 51, 0.8);
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .search-bar {
+            padding: 10px;
+            width: 80%;
+            max-width: 500px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .crop {
+            display: flex;
+            border: 1px solid #ddd;
+            margin: 20px 0;
+            padding: 10px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .crop img {
+            max-width: 150px;
+            margin-right: 20px;
+            border-radius: 8px;
+        }
+        .crop h2 {
+            margin-top: 0;
+        }
+        .crop p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Crop Information</h1>
+    </header>
+
+    <div class="container">
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-bar" placeholder="Search for crops...">
+        </div>
+
+        <!-- Crop 1 -->
+        <div class="crop" data-name="Wheat">
+            <img src="wheat.jfif" alt="Wheat">
+            <div>
+                <h2>Wheat</h2>
+                <p><strong>Scientific Name:</strong> Triticum</p>
+                <p><strong>Description:</strong> Wheat is a staple food that is used to make bread, pasta, and many other products. It is one of the most widely cultivated crops in the world.</p>
+                <p><strong>Temperature:</strong> 10-25°C</p>
+                <p><strong>Humidity:</strong> 50-70%</p>
+            </div>
+        </div>
+
+        <!-- Crop 2 -->
+        <div class="crop" data-name="Corn">
+            <img src="corn.jfif" alt="Corn">
+            <div>
+                <h2>Corn</h2>
+                <p><strong>Scientific Name:</strong> Zea mays</p>
+                <p><strong>Description:</strong> Corn, also known as maize, is a cereal grain first domesticated by indigenous peoples in southern Mexico about 10,000 years ago. It is a major food crop and also used in animal feed and biofuel.</p>
+                <p><strong>Temperature:</strong> 15-30°C</p>
+                <p><strong>Humidity:</strong> 60-80%</p>
+            </div>
+        </div>
+
+        <!-- Crop 3 -->
+        <div class="crop" data-name="Rice">
+            <img src="rice.jfif" alt="Rice">
+            <div>
+                <h2>Rice</h2>
+                <p><strong>Scientific Name:</strong> Oryza sativa</p>
+                <p><strong>Description:</strong> Rice is a staple food for more than half of the world's population. It is cultivated in flooded fields known as paddies and is a key part of many cultures' diets.</p>
+                <p><strong>Temperature:</strong> 20-35°C</p>
+                <p><strong>Humidity:</strong> 70-90%</p>
+            </div>
+        </div>
+
+        <!-- Crop 4 -->
+        <div class="crop" data-name="Potatoes">
+            <img src="potatoes.jpg" alt="Potatoes">
+            <div>
+                <h2>Potatoes</h2>
+                <p><strong>Scientific Name:</strong> Solanum tuberosum</p>
+                <p><strong>Description:</strong> Potatoes are a versatile tuber used worldwide in various dishes. They are a staple food in many regions and are known for their high carbohydrate content.</p>
+                <p><strong>Temperature:</strong> 15-20°C</p>
+                <p><strong>Humidity:</strong> 80-90%</p>
+            </div>
+        </div>
+
+        <!-- Crop 5 -->
+        <div class="crop" data-name="Tomatoes">
+            <img src="tomato.jfif" alt="Tomatoes">
+            <div>
+                <h2>Tomatoes</h2>
+                <p><strong>Scientific Name:</strong> Solanum lycopersicum</p>
+                <p><strong>Description:</strong> Tomatoes are a widely consumed fruit that is used in salads, sauces, and many other dishes. They are rich in vitamins and antioxidants.</p>
+                <p><strong>Temperature:</strong> 18-25°C</p>
+                <p><strong>Humidity:</strong> 60-70%</p>
+            </div>
+        </div>
+
+        <!-- Crop 6 -->
+        <div class="crop" data-name="Carrots">
+            <img src="carrot.jfif" alt="Carrots">
+            <div>
+                <h2>Carrots</h2>
+                <p><strong>Scientific Name:</strong> Daucus carota</p>
+                <p><strong>Description:</strong> Carrots are a root vegetable known for their high beta-carotene content. They are commonly eaten raw or cooked and are used in a variety of dishes.</p>
+                <p><strong>Temperature:</strong> 10-20°C</p>
+                <p><strong>Humidity:</strong> 60-80%</p>
+            </div>
+        </div>
+
+        <!-- Crop 7 -->
+        <div class="crop" data-name="Onions">
+            <img src="onions.jfif" alt="Onions">
+            <div>
+                <h2>Onions</h2>
+                <p><strong>Scientific Name:</strong> Allium cepa</p>
+                <p><strong>Description:</strong> Onions are a popular vegetable known for their strong flavor and aroma. They are used in a variety of cuisines around the world and have many health benefits.</p>
+                <p><strong>Temperature:</strong> 13-25°C</p>
+                <p><strong>Humidity:</strong> 65-80%</p>
+            </div>
+        </div>
+
+        <!-- Crop 8 -->
+        <div class="crop" data-name="Spinach">
+            <img src="spinach.jfif" alt="Spinach">
+            <div>
+                <h2>Spinach</h2>
+                <p><strong>Scientific Name:</strong> Spinacia oleracea</p>
+                <p><strong>Description:</strong> Spinach is a leafy green vegetable rich in vitamins and minerals. It is commonly used in salads, soups, and various dishes for its nutritional benefits.</p>
+                <p><strong>Temperature:</strong> 10-20°C</p>
+                <p><strong>Humidity:</strong> 60-70%</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('searchInput').addEventListener('input', function() {
+            const query = this.value.toLowerCase();
+            const crops = document.querySelectorAll('.crop');
+
+            crops.forEach(crop => {
+                const name = crop.getAttribute('data-name').toLowerCase();
+                if (name.includes(query)) {
+                    crop.style.display = '';
+                } else {
+                    crop.style.display = 'none';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
